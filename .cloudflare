@@ -1,0 +1,7 @@
+# Cloudflare Pages Build Configuration
+[build]
+  command = "pnpm install && pnpm build"
+  
+[build.environment]
+  GIT_SUBMODULE_STRATEGY = "none"
+  NODE_VERSION = "20"
